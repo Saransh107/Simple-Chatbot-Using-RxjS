@@ -120,7 +120,7 @@ const chatbotResponse$ = userInput$.pipe(
       const options = {
         method: 'GET',
         headers: {
-          'X-RapidAPI-Key': '6d4e1d80a3mshbab23a1b4bbfc73p121095jsnb6a0d398ffb0',
+          'X-RapidAPI-Key': 'Your_API_KEY',
           'X-RapidAPI-Host': 'weather-api138.p.rapidapi.com'
         }
       };
@@ -167,7 +167,7 @@ const chatbotResponse$ = userInput$.pipe(
       const options = {
         method: 'GET',
         headers: {
-          'X-RapidAPI-Key': '6d4e1d80a3mshbab23a1b4bbfc73p121095jsnb6a0d398ffb0',
+          'X-RapidAPI-Key': 'Your_API_KEY',
           'X-RapidAPI-Host': 'shazam-api6.p.rapidapi.com'
         }
       };
@@ -224,7 +224,7 @@ const chatbotResponse$ = userInput$.pipe(
       const movieOptions = {
         method: 'GET',
         headers: {
-          'X-RapidAPI-Key': '6d4e1d80a3mshbab23a1b4bbfc73p121095jsnb6a0d398ffb0',
+          'X-RapidAPI-Key': 'Your_API_KEY',
           'X-RapidAPI-Host': 'imdb146.p.rapidapi.com'
         }
       };
