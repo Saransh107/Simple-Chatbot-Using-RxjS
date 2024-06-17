@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 const WeatherApi = ({ onCityInput }) => {
   const [cityName, setCityName] = useState('');
   const [weatherData, setWeatherData] = useState(null);
-  const apiKey = '2c62fc2d299bab4de59a565cb684f76e'; // Replace 'YOUR_OPENWEATHERMAP_API_KEY' with your actual API key
+  const apiKey = 'YOUR_OPENWEATHERMAP_API_KEY'; // Replace 'YOUR_OPENWEATHERMAP_API_KEY' with your actual API key
 
   const fetchData = () => {
     const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`;
